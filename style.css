@@ -49,7 +49,7 @@ ul {
 .intro-text {
     display:flex;
     justify-content: space-between;
-    
+    gap: 9px;
 }
 
 .paragraph {
@@ -79,4 +79,121 @@ button {
     align-items: center;
     text-align: center;
     justify-content: space-around;
+}
+
+.images {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#icon_header {
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    font: #1F2937;
+    margin: 50px 0px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin-bottom: 75px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125px
+}
+
+.box_image {
+    height: 125px;
+    width: 125px;
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+    margin-bottom: 5px;
+}
+
+.subtext {
+    width:125px;
+    text-align: center;
+    color: #44464b;
+    font-size: 14px;
+}
+
+.quote {
+    display:flex;
+    background-color: #E5E7EB;
+}
+
+.quote_block {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 10%;
+}
+
+#quote_attribution, 
+#quote_text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+}
+
+#quote_attribution {
+    display:flex;
+    flex-direction: row-reverse;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.cta_box {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    padding: 30px 40px;
+    margin: 75px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cta_header {
+    font-size: 24px;
+}
+
+#cta_message {
+    font-size: 12px;
+}
+
+#ghost_button {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 50%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
 }

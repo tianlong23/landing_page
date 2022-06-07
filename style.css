@@ -1,5 +1,4 @@
 
-
 body {
     display: flex;
     flex-direction: column;
@@ -11,7 +10,7 @@ body {
 .hero {
     display: flex;
     width:100%;
-    background-color: #1F2937;
+    background-color: #0e2521;
     justify-content: center;
     color:white;
 }
@@ -27,6 +26,7 @@ body {
     justify-content: space-between;
     margin-bottom: 5em;
     align-items: center;
+    gap: 10px;
 }
 
 #logo {
@@ -44,20 +44,25 @@ ul {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 10px;
 }
 
 .intro-text {
     display:flex;
     justify-content: space-between;
-    gap: 9px;
+    gap: 15px;
 }
 
 .paragraph {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#bold {
+    font-weight: bold;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #956B23;
     color: white;
     border-radius: 3px;
     box-shadow:0;
@@ -73,12 +78,22 @@ button {
 
 #intro-image {
     display: flex;
-    flex-shrink: 0;
-    width: 50%;
-    background-color: #ffffff4d;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
     align-items: center;
     text-align: center;
     justify-content: space-around;
+}
+
+#sauron {
+    display:flex;
+    flex-grow:1;
+    height: 50%;
+    width: 50%;
+    max-width: 452px;
+    max-height: 254px;
+    border: 1px solid white;
 }
 
 .images {
@@ -90,6 +105,7 @@ button {
 #icon_header {
     display:flex;
     justify-content: center;
+    text-align: center;
     font-size: 36px;
     font-weight: 900;
     font: #1F2937;
@@ -114,8 +130,13 @@ button {
     height: 125px;
     width: 125px;
     border-radius: 8px;
-    border: 2px solid #3882F6;
     margin-bottom: 5px;
+}
+
+.employee {
+    height: 125px;
+    width:125px;
+    border-radius: 8px;
 }
 
 .subtext {
@@ -159,7 +180,7 @@ button {
 }
 
 .cta_box {
-    background-color: #3882F6;
+    background-color: #0e2521;
     border-radius: 5px;
     color: white;
     display: flex;
@@ -189,7 +210,7 @@ button {
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #956B23;
     color: white;
     text-align: center;
     display: flex;
